@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/single_logo"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/diff_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/game_diff_level_text"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryTextLight"
+        android:textSize="@dimen/header_title_font"
+        app:fontFamily="@font/sniglet" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/game_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_weight="1"
+            android:max="9"
+            android:maxHeight="@dimen/seekbar_height"
+            android:min="@dimen/seekbar_progress_min"
+            android:minHeight="@dimen/seekbar_height_min"
+            android:progressDrawable="@drawable/seekbar_bg"
+            android:thumb="@drawable/seekbar_thumb" />
+
+
+        <Button
+            android:id="@+id/button_new_game"
+            android:layout_width="@dimen/life_button_size"
+            android:layout_height="@dimen/life_button_size"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:background="@drawable/heart" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/puzzle_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/extra_margin">
+
+    </RelativeLayout>
+
+</LinearLayout>

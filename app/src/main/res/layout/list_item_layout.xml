@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:padding="@dimen/normal_margin">
+
+    <TextView
+        android:id="@+id/game_date_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/normal_margin"
+        android:paddingEnd="@dimen/normal_margin"
+        android:text="@string/app_name"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorHighlightText"
+        android:textSize="@dimen/Score_high_font" />
+
+    <LinearLayout
+        android:layout_below="@+id/game_date_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_date_txt"
+            android:paddingStart="@dimen/normal_margin"
+            android:text="@string/game_level_text"
+            android:textColor="@color/colorPrimaryTextLight"
+            android:textSize="@dimen/Score_title_font" />
+
+        <TextView
+            android:id="@+id/game_level_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_date_txt"
+            android:layout_toRightOf="@+id/l1"
+            android:paddingStart="@dimen/normal_margin"
+            android:text="@string/app_name"
+            android:textColor="@color/colorHighlightText"
+            android:textSize="@dimen/Score_title_score_font"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_date_txt"
+            android:layout_toRightOf="@+id/game_level_txt"
+            android:paddingStart="@dimen/normal_margin"
+            android:text="@string/game_score_in_text"
+            android:textColor="@color/colorPrimaryTextLight"
+            android:textSize="@dimen/Score_title_font" />
+
+        <TextView
+            android:id="@+id/game_score_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_date_txt"
+            android:layout_toRightOf="@+id/l2"
+            android:paddingStart="@dimen/low_margin"
+            android:text="@string/app_name"
+            android:textColor="@color/colorHighlightText"
+            android:textSize="@dimen/Score_title_score_font"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_date_txt"
+            android:layout_toRightOf="@+id/game_score_txt"
+            android:paddingStart="@dimen/normal_margin"
+            android:text="@string/game_score_text"
+            android:textColor="@color/colorPrimaryTextLight"
+            android:textSize="@dimen/Score_title_font" />
+
+    </LinearLayout>
+
+</RelativeLayout>

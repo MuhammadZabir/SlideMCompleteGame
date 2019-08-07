@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Slide\'M</string>
+    <string name="btn_start_text">Start Game</string>
+    <string name="btn_stats_text">High Score</string>
+    <string name="dlg_play_again_text">Play Again?</string>
+    <string name="dl_check_best_text">Check Best Scores</string>
+    <string name="btn_negative_text">No</string>
+    <string name="btn_positive_text">Yes</string>
+    <string name="game_level_text">Cleared Level:</string>
+    <string name="game_score_in_text">in</string>
+    <string name="game_score_text">Clicks</string>
+    <string name="game_diff_level_text">Difficulty Level:</string>
+    <string name="game_sponsor_text">Game By www.kotlincourses.com</string>
+    <string name="btn_clear_score_text">Clear Scores</string>
+</resources>

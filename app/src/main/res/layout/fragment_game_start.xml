@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/promo_logo"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/extra_margin"
+        android:paddingRight="@dimen/extra_margin"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/normal_margin"
+            android:layout_weight="50"
+            android:background="@drawable/btn_main_action"
+            android:paddingStart="@dimen/btn_sides_padding"
+            android:paddingEnd="@dimen/btn_sides_padding"
+            android:text="@string/btn_start_text"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/button_title_font" />
+
+        <Button
+            android:id="@+id/btnStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:layout_weight="50"
+            android:background="@drawable/btn_sub_action"
+            android:backgroundTint="@color/colorDeAccent"
+            android:drawableTintMode="src_over"
+            android:paddingStart="@dimen/btn_sides_padding"
+            android:paddingEnd="@dimen/btn_sides_padding"
+            android:text="@string/btn_stats_text"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/button_title_font" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:text="@string/game_sponsor_text"
+        android:textAlignment="center"
+        android:textColor="@color/colorDeAccent" />
+
+</LinearLayout>

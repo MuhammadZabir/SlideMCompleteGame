@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28B463</color>
+    <color name="colorPrimaryDark">#1E8449</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorPrimaryTextLight">#FFFFFF</color>
+    <color name="colorHighlightText">#FFD600</color>
+    <color name="colorAccent">#E74C3C</color>
+    <color name="colorDeAccent">#E1E1E1</color>
+    <color name="colorSlideTile">#28B463</color>
+    <color name="colorSlideText">#FFFFFF</color>
+    <color name="colorSeekBar">#FFD600</color>
+    <color name="colorScoreItemBg">#CC28B463</color>
+</resources>
